@@ -1,4 +1,5 @@
-package binarytree;
+package structy;
+
 
 public class Compress {
 

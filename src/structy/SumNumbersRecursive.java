@@ -1,3 +1,4 @@
+package structy;
 import java.util.List;
 
 public class SumNumbersRecursive {

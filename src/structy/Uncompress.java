@@ -1,3 +1,4 @@
+package structy;
 
 
 public class Uncompress {
