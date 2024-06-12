@@ -1,4 +1,4 @@
-package structy;
+package structy.introduction;
 public class IsPrime {
 
     public static void main(String[] args) {

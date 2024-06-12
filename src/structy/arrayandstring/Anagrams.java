@@ -1,4 +1,4 @@
-package structy;
+package structy.arrayandstring;
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package structy;
+package structy.arrayandstring;
 
 import java.util.ArrayList;
 import java.util.Collections;
