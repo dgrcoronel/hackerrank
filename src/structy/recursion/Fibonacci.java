@@ -1,4 +1,4 @@
-package structy;
+package structy.recursion;
 
 public class Fibonacci {
 

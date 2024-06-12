@@ -1,4 +1,4 @@
-package structy;
+package structy.recursion;
 
 import java.util.List;
 
