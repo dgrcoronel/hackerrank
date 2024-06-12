@@ -1,4 +1,4 @@
-package structy;
+package structy.linkedlist;
 
 import java.util.ArrayList;
 import java.util.List;
