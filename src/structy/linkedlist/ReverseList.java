@@ -23,6 +23,9 @@ public class ReverseList {
         //                        p    c    n
         //                             p    c    n
         //                                  p    c    n
+
+        // a -> b -> c -> d -> e -> f
+        // null <- a 
         System.out.println(reverseList(a));
         // System.out.println(reverseListRecursive(a));
         var response = reverseListRecursive(a);
@@ -36,7 +39,7 @@ public class ReverseList {
             Node<T> next = current.next;
             current.next = previous;
             System.out.println("current.next: " + current.next);
-            previous = current;
+            previous = current; 
             System.out.println("previous: " + previous);
             current = next;
             System.out.println("current: " + current);
