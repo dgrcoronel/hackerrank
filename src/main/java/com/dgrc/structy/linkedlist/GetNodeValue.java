@@ -47,14 +47,4 @@ public class GetNodeValue {
         return getNodeValueRecursive(head.next, index - 1);
     }
 
-    static class Node<T> {
-        T val;
-        Node<T> next;
-        
-        public Node(T val) {
-          this.val = val;
-          this.next = null;
-        }
-      }
-    
 }

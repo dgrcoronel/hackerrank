@@ -1,6 +1,6 @@
 package main.java.com.dgrc.structy.linkedlist;
 
-public class MergeLists {
+public class MergeListsRecursive {
 
     public static void main(String[] args) {
 
@@ -38,28 +38,19 @@ public class MergeLists {
     }
 
     public static Node<Integer> mergeLists(Node<Integer> head1, Node<Integer> head2) {
-        Node<Integer> current1 = head1;
-        Node<Integer> current2 = head2;
-        Node<Integer> dummyHead = new Node<>(0);
-        Node<Integer> current = dummyHead;
-        while (current1 != null && current2 != null) {
-            if (current1.val < current2.val) {
-                current.next = current1;
-                current1 = current1.next;
-            } else {
-                current.next = current2;
-                current2 = current2.next;
-            }
-            current = current.next;
-            System.out.println(current.val);
+        if (head1 == null) {
+            return head2;
         }
-        if (current1 != null) {
-            current.next = current1;
+        if (head2 == null) {
+            return head1;
         }
-        if (current2 != null) {
-            current.next = current2;
+        if (head1.val < head2.val) {
+            head1.next = mergeLists(head1.next, head2);
+            return head1;
+        } else {
+            head2.next = mergeLists(head1, head2.next);
+            return head2;
         }
-        return dummyHead.next;
     }
 
     static class Node<T> {

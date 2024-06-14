@@ -20,18 +20,6 @@ public class LinkedListValues {
         System.out.println(linkedListValuesRecursive(x));
     }
 
-    static class Node<T> {
-        
-        T val;
-        Node<T> next;
-
-        public Node(T val) {
-            this.val = val;
-            this.next = null;
-        }
-
-    }
-
     public static List<String> linkedListValues(Node<String> head) {
         Node<String> current = head;
         List<String> result = new ArrayList<>();
