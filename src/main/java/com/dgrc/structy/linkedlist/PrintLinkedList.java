@@ -8,7 +8,7 @@ public class PrintLinkedList {
             print = print + " -> " + head.next.val ;
             head = head.next;
         }
-        System.out.println(print);
+        System.out.println("  Return: " + print);
     }
     
 }
