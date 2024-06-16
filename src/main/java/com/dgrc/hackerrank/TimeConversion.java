@@ -1,4 +1,4 @@
-package main.java.com.dgrc.hackerrank;
+package com.dgrc.hackerrank;
 public class TimeConversion {
 
     public static void main(String[] args) {

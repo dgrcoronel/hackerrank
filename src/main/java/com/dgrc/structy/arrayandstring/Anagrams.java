@@ -1,4 +1,5 @@
-package main.java.com.dgrc.structy.arrayandstring;
+package com.dgrc.structy.arrayandstring;
+
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package main.java.com.dgrc.structy.binarytree;
+package com.dgrc.structy.binarytree;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +34,7 @@ public class DepthFirstValues {
     public static List<String> depthFirstValues(Node<String> root) {
 
         if (root == null) {
-            return List.of();
+            return new ArrayList<>();
         }
 
         List<String> list = new ArrayList<>();

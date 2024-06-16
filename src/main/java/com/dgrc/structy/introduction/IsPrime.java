@@ -1,4 +1,4 @@
-package main.java.com.dgrc.structy.introduction;
+package com.dgrc.structy.introduction;
 public class IsPrime {
 
     public static void main(String[] args) {

@@ -1,4 +1,5 @@
-package main.java.com.dgrc.hackerrank;
+package com.dgrc.hackerrank;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;

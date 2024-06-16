@@ -1,4 +1,4 @@
-package main.java.com.dgrc.structy.linkedlist;
+package com.dgrc.structy.linkedlist;
 
 import java.util.ArrayList;
 import java.util.List;

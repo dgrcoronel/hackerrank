@@ -1,4 +1,4 @@
-package main.java.com.dgrc.structy.recursion;
+package com.dgrc.structy.recursion;
 
 public class ReverseStringRecursive {
 

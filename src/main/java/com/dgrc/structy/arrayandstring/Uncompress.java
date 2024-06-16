@@ -1,4 +1,4 @@
-package main.java.com.dgrc.structy.arrayandstring;
+package com.dgrc.structy.arrayandstring;
 
 
 public class Uncompress {

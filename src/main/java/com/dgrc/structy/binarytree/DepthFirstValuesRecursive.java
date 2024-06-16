@@ -1,4 +1,4 @@
-package main.java.com.dgrc.structy.binarytree;
+package com.dgrc.structy.binarytree;
 
 import java.util.ArrayList;
 import java.util.List;
